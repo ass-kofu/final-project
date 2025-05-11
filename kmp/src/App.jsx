@@ -16,14 +16,14 @@ function App() {
               <li><a href="blog.html">Blog</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="contact.html">Contact</a></li>
-              <li><a href="cart.html"><img src="img/icons/cart.png" height="40pxs"></a></li>
+              <li><a href="cart.html"><img src="img/icons/cart.png" height="40pxs" /></a></li>
             </ul>
           </div>
         </section>
         <section id="main-header">
-          <h4>Welcome to Konnect Market Place</h2>
+          <h4>Welcome to Konnect Market Place</h4>
           <h2>Your one-stop store for all your needs!</h2>
-          <h2>We offer a wide range of products at unbeatable prices.</h3> 
+          <h2>We offer a wide range of products at unbeatable prices.</h2> 
           <p>Shop now and enjoy exclusive discounts!</p>
           <button>shop now</button>
         </section>
