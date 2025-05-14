@@ -50,7 +50,8 @@ body {
 .head-div2 {
  display: flex;
  flex: 1;
- justify-items: center;
+ align-self: center;
+ justify-content: center;
 }
 .head-div2 input {
 height: 60px;
@@ -103,19 +104,17 @@ border-right: none;
 }
 #electronics {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 20px;
-  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
   margin: 20px 20px;
   padding: 20px 20px;
 }
 .electronics-container {
-  border: 1px solid var(--line-clr);
   height: 520px;
   width: 380px;
 }
 .cont-div1 {
-  border: 1px solid black;
   width: 380px;
   height: 370px;
 }
@@ -124,7 +123,6 @@ border-right: none;
   width: 380px;
 }
 .cont-div2 {
-  border: 1px solid black;
   height: 145px;
   width: 380px;
 }
