@@ -78,29 +78,6 @@ border-right: none;
   display: flex;
   align-items: center;
 }
-#brands {
-  margin: 20px 20px;
-}
-#brands h1 {
-  justify-self: center;
-  color: rgb(16, 211, 211);
-  font-size: 2em;
-  font-weight: 700;
-}
-#brands div {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 20px;
-}
-.btn {
-  width: fit-content;
-  padding: 20px 25px;
-  border-radius: 10px;
-}
-.btn a {
-  font-size: 2em;
-  text-decoration: none;
-}
 #electronics {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -138,9 +115,6 @@ border-right: none;
   font-size: x-large;
   font-weight: 400;
   margin-bottom: 10px;
-}
-.cont-div2 p strike s{
-  color: red;
 }
 .cont-div2 button {
   display: flex;
