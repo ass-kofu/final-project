@@ -8,30 +8,30 @@
 {
   "id": 2,
   "name": "Blender",
-  "price": 600,
+  "price": 2000,
   "image": "img/electronics/blender.webp" 
 },
 {
   "id": 3,
   "name": "Burner",
-  "price": 600,
+  "price": 250,
   "image": "img/electronics/burner.jpg" 
 },
 {
   "id": 4,
   "name": "Coffee maker",
-  "price": 600,
+  "price": 3500,
   "image": "img/electronics/kettle.webp" 
 },{
   "id": 5,
   "name": "Earpods",
-  "price": 600,
+  "price": 700,
   "image": "img/electronics/earpods.webp" 
 },
 {
   "id": 6,
   "name": "Fan",
-  "price": 600,
+  "price": 2200,
   "image": "img/electronics/fan.webp" 
 },
 {
@@ -43,7 +43,7 @@
 {
   "id": 8,
   "name": "Fridge",
-  "price": 600,
+  "price": 15000,
   "image": "img/electronics/fridge.webp" 
 }
 ]
