@@ -1,181 +1,181 @@
 [
 {
   "id": 1,
-  "name": "img/shopping/blueband-margarine-original-100g.jpg",
-  "price": 600,
-  "image": "img/electronics/101090752.webp" 
+  "name": "Zesta-tomato-sauce",
+  "price": 125,
+  "image": "img/shopping/zesta-tomato-sauce-400g.jpg" 
 },
 {
   "id": 2,
-  "name": "Blender",
-  "price": 2000,
-  "image": "img/electronics/blender.webp" 
+  "name": "Blueband-550g",
+  "price": 80,
+  "image": "img/shopping/blueband-margarine-original-100g.jpg" 
 },
 {
   "id": 3,
-  "name": "Burner",
-  "price": 250,
-  "image": "img/electronics/burner.jpg" 
+  "name": "Cil-rice-1kg",
+  "price": 130,
+  "image": "img/shopping/cil-blended-rice-1kg.jpg" 
 },
 {
   "id": 4,
-  "name": "Coffee maker",
-  "price": 3500,
-  "image": "img/electronics/kettle.webp" 
+  "name": "Golden-fry-5L",
+  "price": 850,
+  "image": "img/shopping/golden-fry-cooking-oil-5l.jpg" 
 },{
   "id": 5,
-  "name": "Earpods",
-  "price": 700,
-  "image": "img/electronics/earpods.webp" 
+  "name": "Gulf-pure-cane",
+  "price": 80,
+  "image": "img/shopping/gulf-pure-cane-sugar-500g.jpg" 
 },
 {
   "id": 6,
-  "name": "Fan",
-  "price": 2200,
-  "image": "img/electronics/fan.webp" 
+  "name": "Viceroy-850ml",
+  "price": 1300,
+  "image": "img/shopping/viceroy-blended-brandy-750ml.jpg" 
 },
 {
   "id": 7,
-  "name": "Flash disk",
-  "price": 600,
-  "image": "img/electronics/flash disk.jpg" 
+  "name": "Mount-kenya-500ml",
+  "price": 60,
+  "image": "img/shopping/mount-kenya-milk-500ml.jpg" 
 },
 {
   "id": 8,
-  "name": "Fridge",
-  "price": 15000,
-  "image": "img/electronics/fridge.webp" 
+  "name": "Ndume-soap-bar",
+  "price": 170,
+  "image": "img/shopping/ndume-laundry-bar-soap-herbal-1kg.jpg" 
 },
 {
   "id": 9,
-  "name": "Woofer",
-  "price": 8500,
-  "image": "img/electronics/woofer.webp" 
+  "name": "Toilet-papers-10pieces",
+  "price": 315,
+  "image": "img/shopping/petals-luxury-toilet-paper-10-pack-wrapped.jpg" 
 },
 {
   "id": 10,
-  "name": "hp laptop 256ssd 8gbram corei7",
-  "price": 8000,
-  "image": "img/electronics/hp laptop.jpg" 
+  "name": "Oryx-premium-2kg",
+  "price": 170,
+  "image": "img/shopping/oryx-premium-maize-meal-flour-2kg.jpg" 
 },
 {
   "id": 11,
-  "name": "electric water dispenser",
-  "price": 600,
-  "image": "img/electronics/iron boxes.jpg" 
+  "name": "Pishori-rice-2kg",
+  "price": 240,
+  "image": "img/shopping/pearl-long-grain-pishori-rice-grade-1-1kg.jpg" 
 },
 {
   "id": 12,
-  "name": "42 inch smart tv",
-  "price": 15000,
-  "image": "img/electronics/smart tv.webp" 
+  "name": "Peptan-tomato-sauce-250g.",
+  "price": 125,
+  "image": "img/shopping/peptang-tomatoe-sauce-250g.jpg" 
 },
 {
   "id": 13,
-  "name": "wireless mouse",
-  "price": 600,
-  "image": "img/electronics/mouse.jpg" 
+  "name": "Drinking-choco-primo.",
+  "price": 150,
+  "image": "img/shopping/choco-primo-rich-drinking-chocolate-jar-200g.jpg" 
 },
 {
   "id": 14,
-  "name": "flash disk 32gb",
-  "price": 700,
-  "image": "img/electronics/konnect-usb-30-32gb.jpg" 
+  "name": "Ranee-long-rice-2kg.",
+  "price": 250,
+  "image": "img/shopping/ranee-long-grain-rice-2kg.jpg" 
 },
 {
   "id": 15,
-  "name": "64gn memory card",
-  "price": 1200,
-  "image": "img/electronics/64gb-memory-card.jpg" 
+  "name": "Santa-spaghetti-400g.",
+  "price": 100,
+  "image": "img/shopping/santa-lucia-spaghetti-pasta-400g.jpg" 
 },
 {
   "id": 16,
-  "name": "Double cooker glassed",
-  "price": 2200,
-  "image": "img/electronics/gas cooker.webp" 
+  "name": "Tropical-heat-masala-10g.",
+  "price": 30,
+  "image": "img/shopping/tropical-heat-tea-masala-10g-x-12pieces.jpg" 
 },
 {
   "id": 17,
-  "name": "hair trimmer",
-  "price": 700,
-  "image": "img/electronics/hair trimmer.jpg" 
+  "name": "Aluminium-foil-30cm.",
+  "price": 120,
+  "image": "img/shopping/velvex-aluminium-foil-30cm-x-5m.jpg" 
 },
 {
   "id": 18,
-  "name": "bluetooth headphones",
-  "price": 1200,
-  "image": "img/electronics/headphones.webp" 
+  "name": "Toto-afya-1kg.",
+  "price": 90,
+  "image": "img/shopping/winnie-s-pure-health-toto-afya-1kg.jpg" 
 },
 {
   "id": 19,
-  "name": "2L kettle heater",
-  "price": 600,
-  "image": "img/electronics/kettle heat (1).jpg" 
+  "name": "Whole-milk-12pieces.",
+  "price": 720,
+  "image": "img/shopping/daima-whole-milk-18-pcs-.jpg" 
 },
 {
   "id": 20,
-  "name": "vivo 128gbrom 6gb ram",
-  "price": 7000,
-  "image": "img/electronics/vivo.jpg" 
+  "name": "Lavender-toilet-cleaner.",
+  "price": 170,
+  "image": "img/shopping/kenlex-toilet-cleaner-lavender-500ml.jpg" 
 },
 {
   "id": 21,
-  "name": "tv strap mounting",
-  "price": 600,
-  "image": "img/electronics/tv holder.webp" 
+  "name": "Chicken-noodles.",
+  "price": 35,
+  "image": "img/shopping/nala-instant-noodles-chicken-flavour-120g.jpg" 
 },
 {
   "id": 22,
-  "name": "y50 pro earpods",
-  "price": 650,
-  "image": "img/electronics/102438158.webp" 
+  "name": "Pika-cooking-oil-20L.",
+  "price": 2600,
+  "image": "img/shopping/pika-vegetable-cooking-oil-10l.jpg" 
 },
 {
   "id": 23,
-  "name": "burner",
+  "name": "Ranee-long-rice-2kg.",
   "price": 250,
-  "image": "img/electronics/burner.jpg" 
+  "image": "img/shopping/ranee-long-grain-rice-2kg.jpg" 
 },
 {
   "id": 24,
-  "name": "blender",
-  "price": 2000,
-  "image": "img/electronics/blender (2).webp" 
+  "name": "County-spirit-250ml.",
+  "price": 270,
+  "image": "img/shopping/county-portable-spirit-250ml.jpg" 
 },
 {
   "id": 25,
-  "name": "iron box",
-  "price": 900,
-  "image": "img/electronics/iron box (2).webp" 
+  "name": "Zesta-jam-100g.",
+  "price": 150,
+  "image": "img/shopping/zesta-fruit-jam-mixed-fruit-100g.jpg" 
 },
 {
   "id": 26,
-  "name": "header + cable",
-  "price": 700,
-  "image": "img/electronics/complete charger.jpg" 
+  "name": "Mwea pishori-1kg.",
+  "price": 170,
+  "image": "img/shopping/cil-pishori-aromatic-rice-1kg-.jpg" 
 },
 {
   "id": 27,
-  "name": "Coffee maker",
-  "price": 4500,
-  "image": "img/electronics/cofee maker.webp" 
+  "name": "Captain-morgan-750ml.",
+  "price": 830,
+  "image": "img/shopping/captain-morgan-gold-rum-750ml.jpg" 
 },
 {
   "id": 28,
-  "name": "water dispenser",
-  "price": 600,
-  "image": "img/electronics/dispenser.webp" 
+  "name": "Chamdor-grape-juice-750ml.",
+  "price": 1200,
+  "image": "img/shopping/chamdor-sparkling-grape-juice-white-750ml.jpg" 
 },
 {
   "id": 29,
-  "name": "kettle heater",
-  "price": 700,
-  "image": "img/electronics/kettle heater.webp" 
+  "name": "Livelle-kitchen-towel.",
+  "price": 300,
+  "image": "img/shopping/livelle-kitchen-towel-twin-pack-white.jpg" 
 },
 {
   "id": 30,
-  "name": "earpods",
-  "price": 700,
-  "image": "img/electronics/c9 earpods.webp" 
+  "name": "Drinking-choco-primo.",
+  "price": 170,
+  "image": "img/shopping/choco-primo-rich-drinking-chocolate-jar-200g.jpg" 
 }
 ]
