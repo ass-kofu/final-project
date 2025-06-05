@@ -959,14 +959,14 @@ background-color: rgb(167, 121, 89);
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   justify-content: center;
 }
 #navbar li span {
   background-color: red;
   border-radius: 50%;
-  padding: 5px 10px;
+  padding: 20px 20px;
   color: white;
   font-size: 15px;
   position: relative;
@@ -1834,7 +1834,6 @@ width: 50%;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px;
   background-color: #f8f9fa;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
@@ -1844,40 +1843,43 @@ width: 50%;
   left: 0;
 }
 .header-div ul li a {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 .butt1 {
   padding: 20px 20px;
-  width: 155px;
   margin-top: 5px;
+}
+.logo-div {
+  height: 30%;
+  width: 40%;
 }
 #navbar {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   justify-content: center;
 }
-#navbar li span {
+#navbar li span { 
   background-color: red;
   border-radius: 50%;
-  padding: 5px 10px;
+  padding: 3px 8px;
   color: white;
   font-size: 15px;
   position: relative;
 }
 #navbar li a{
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
 }
 #main-header {
-  height: 30vh;
+  height: 100%;
   width: 100%;
 }
 #main-header h4 {
   padding: 5px;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 #main-header button {
   padding: 14px 80px 14px 65px;
@@ -1888,7 +1890,7 @@ width: 50%;
   grid-template-rows: 1fr 1fr;
   align-items: center;
   padding: 20px;
-  height: 20vh;
+  height: 100%;
   border-radius: 30px;
   width: 100%;
   overflow: auto;
