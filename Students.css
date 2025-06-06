@@ -645,7 +645,7 @@ footer {
   width: 40px;
 }
 }
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   header {
   display: grid;
   grid-template-columns: 80px 1fr 80px;
