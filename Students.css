@@ -433,12 +433,12 @@ footer {
 }
 }
 @media (max-width: 992px) {
-  #header {
+  header {
   display: grid;
-  grid-template-columns: 50px 1fr 80px;
-  width: 100%;
+  grid-template-columns: 50px 1fr 100px;
+  width: 50%;
   align-items: center;
-  height: 10%;
+  height: 2%;
   z-index: 999;
   position: fixed;
   margin-top: -150px;
@@ -493,7 +493,7 @@ padding-left: 20px;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 60%;
+  top: 70%;
   right: 0px;
   font-size: 0.7em;
 }
@@ -503,19 +503,18 @@ padding-left: 20px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 150px;
-  width: 100%;
-  height: 100%;
+  width: 50%;
 }
 .item {
-  height: 70%;
-  width: 70%;
+  height: 80%;
+  width: 60%;
 }
 .item img {
   width: 100%;
   height: 40%;
 }
 .item h2 {
-  font-size: 1.4em;
+  font-size: 0.8em;
   font-weight: small;
   text-wrap: wrap;
   color: rgb(0, 128, 0);
@@ -523,7 +522,7 @@ padding-left: 20px;
 }
 .item .price {
   letter-spacing: 3px;
-  font-size: 1.2em;
+  font-size: 0.7em;
   color: #000;
   justify-self: center;
   margin-top: -10px;
@@ -647,10 +646,10 @@ footer {
 }
 }
 @media (max-width: 768px) {
-  #header {
+  header {
   display: grid;
   grid-template-columns: 80px 1fr 80px;
-  width: 100%;
+  width: 52%;
   align-items: center;
   height: 5%;
   z-index: 999;
@@ -717,16 +716,16 @@ padding-left: 20px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 150px;
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 .item {
-  height: 90%;
-  width: 80%;
+  height: 85%;
+  width: 62%;
 }
 .item img {
   width: 100%;
-  height: 40%;
+  height: 30%;
 }
 .item h2 {
   font-size: 1em;
@@ -861,20 +860,18 @@ footer {
 }
 }
 @media (max-width: 600px) {
-  #header {
+  header {
   display: grid;
-  grid-template-columns: 50px 1fr 80px;
-  width: 100%;
+  grid-template-columns: 70px 1fr 80px;
+  width: 50%;
   align-items: center;
-  height: 5%;
+  height: 3%;
   z-index: 999;
   position: fixed;
-  margin-top: -150px;
 }
 .title {
   display: flex;
   flex-direction: column;
-  margin-left: -20px;
 }
 .title h1 {
   font-size: 0.5em;
@@ -928,19 +925,20 @@ padding-left: 20px;
 #list-product {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 150px;
-  width: 100%;
+  width: 42%;
   height: 100%;
+  margin-top: 100px;
 }
 .item {
-  height: 90%;
+  height: 85%;
   width: 80%;
 }
 .item img {
   width: 100%;
-  height: 40%;
+  height: 60%;
 }
 .item h2 {
   font-size: 0.5em;
