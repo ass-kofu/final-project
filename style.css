@@ -976,7 +976,7 @@ background-color: rgb(167, 121, 89);
   position: relative;
 }
 #navbar li a{
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 600;
 }
 #main-header {
@@ -1030,7 +1030,7 @@ background-color: rgb(167, 121, 89);
   border-radius: 20px;
   overflow: hidden;
   height: 100%;
-  width: 70%;
+  width: 90%;
 }
 #slider figure {
   display: flex;
@@ -1071,12 +1071,12 @@ background-color: rgb(167, 121, 89);
   width: 100%;
 }
 #why h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 20px;
 }
 #why p {
   color: var(--text-clr);
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 20px;
 }
 #trade{
@@ -1090,7 +1090,7 @@ background-color: rgb(167, 121, 89);
   height: fit-content;
 }
 .trade-box h2 {
-  font-size: 1.5rem;
+  font-size: rem;
   margin-bottom: 20px;
   text-wrap: wrap;
 }
@@ -2117,10 +2117,10 @@ width: 50%;
   width: 100%;
 }
 .love-box h2 {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 .love-box p {
-  font-size: 1.5em;
+  font-size: 0.8em;
 }
 .love-box strong {
   font-weight: 600;
@@ -2140,7 +2140,7 @@ width: 50%;
   width: 100%;
 }
 #products h2 {
-  font-size: 3rem;
+  font-size: 1rem;
   text-align: center;
 }
 .pro1, .pro2, .pro3 {
