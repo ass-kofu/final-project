@@ -2366,7 +2366,7 @@ width: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   position: fixed;
-  width: 100%;
+  width: 90%;
   top: 0;
   left: 0;
 }
@@ -2380,7 +2380,7 @@ width: 150px;
 }
 .butt1 {
   padding: 10px 10px;
-  width: 120px;
+  width: 100px;
   margin-top: 5px;
 }
 .btn-two img {
@@ -2401,10 +2401,9 @@ width: 150px;
   flex-direction: row;
   gap: 1px;
   align-items: center;
-  font-size: 5px;
+  font-size: 3px;
   font-weight: 300;
   justify-content: center;
-  margin-right: 30%;
 }
 #navbar li span {
   background-color: red;
@@ -2562,9 +2561,9 @@ width: 150px;
 }
 #why {
   display: flex;
-  justify-content: center;
+  align-self: center;
   align-items: center;
-  padding: 20px 80px;
+  margin: 10px;
   background-image: url("img/img/connect.jpg");
   background-size: cover;
   background-position: center;
@@ -2572,7 +2571,7 @@ width: 150px;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   height: 100%;
-  width: 100%;
+  width: 90%;
 }
 #why h1 {
   font-size: 1rem;
@@ -2599,8 +2598,8 @@ width: 150px;
   align-items: center;
   border: 2px solid var(--line-clr);
   border-radius: 20px;
-  padding: 10px;
-  width: 95%;
+  margin: 10px;
+  width: 90%;
   height: 100%;
 }
 .trade-box h2 {
@@ -2655,9 +2654,9 @@ width: 150px;
   background-position: center;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 5px 5px;
+  margin: 10px;
   height: 100%;
-  width: 100%;
+  width: 90%;
 }
 .test-box2 {
   height: 100%;
@@ -2739,12 +2738,13 @@ width: 100%;
 }
 #love {
   display: flex;
-  justify-self: center;
+  -self: center;
   height: 100%;
-  width: 100%;
+  width: 90%;
   background-color: white;
   border-radius: 40px;
   align-self: center;
+  margin: 20px;
 }
 .love-box {
   display: flex;
@@ -2752,7 +2752,6 @@ width: 100%;
   justify-content: center;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10px;
 }
 .love-box h2 {
   font-style: normal;
@@ -2820,10 +2819,11 @@ width: 100%;
 #get {
   display: flex;
   flex-direction: column;
-  justify-self: center;
+  align-self: center;
   background-color: rgb(73, 43, 21);
   height: 100%;
-  width: 100%;
+  width: 90%;
+  margin: 20px;
   border-radius: 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -2845,7 +2845,7 @@ width: 100%;
   color: white;
   padding: 15px 10px;
   width: 50%;
-  margin-left: 60px;
+  margin-left: 100px;
   border: none;
   border-radius: 50px;
   font-size: 1rem;
@@ -2857,12 +2857,12 @@ width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 #stock h2 {
   color: black;
-  font-size: 1em;
+  font-size: 1.5em;
   text-align: center;
   justify-self: end;
   font-weight: 600;
@@ -3003,7 +3003,7 @@ width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   color: var(--text-clr);
-  width: 50%;
+  width: 90%;
 }
 .footer-box {
   display: flex;
