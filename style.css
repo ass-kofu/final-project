@@ -2420,6 +2420,7 @@ width: 180px;
   font-weight: 500;
 }
 #navbar li a img {
+  margin-top: 20px;
   height: 30px;
   width: 30px;
 }
