@@ -1424,13 +1424,14 @@ width: 50%;
   align-items: center;
   position: fixed;
   width: 100%;
+  height: 14%;
 }
 .header-div ul li a {
-  font-size: 2.5em;
+  font-size: x-large;
 }
 .butt1 {
   padding: 20px 20px;
-  width: 155px;
+  width: 180px;
   margin-top: 5px;
 }
 #navbar {
@@ -1448,13 +1449,14 @@ width: 50%;
   color: white;
   font-size: 15px;
   position: relative;
+  right: 15px;
 }
 #navbar li a{
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 600;
 }
 #main-header {
-  height: 30vh;
+  height: 100%;
   width: 100%;
 }
 #main-header h4 {
@@ -1466,11 +1468,10 @@ width: 50%;
   font-size: 1.5rem;
 }
 #help {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
   align-items: center;
   padding: 20px;
-  height: 20vh;
+  height: 100%;
   border-radius: 30px;
   width: 100%;
   overflow: auto;
@@ -1487,13 +1488,14 @@ width: 50%;
 .help-box h2 {
   color: rgb(53, 18, 18);
   font-size: 1.5rem;
+  line-height: 30px;
 }
 .help-box button{
-  padding: 10px 10px;
+  padding: 20px 20px;
   align-self: center;
   border: none;
   border-radius: 10px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   cursor: pointer;
   width: 60%;
   margin: 10px;
@@ -1521,7 +1523,9 @@ width: 50%;
   padding: 10px 10px;
 }
 #services {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
   justify-content: center;
   justify-content: space-between;
   align-items: center;
@@ -1601,17 +1605,18 @@ width: 50%;
 .test-box2 {
   margin: 20px 50px;
   height: 100%;
-  width: 50%;
+  width: 35%;
 }
 .test-box3 {
-width: 50%;
+width: 70%;
+margin-top: -40px;
 }
 .test-box3 h2 {
   font-size: 1rem;
 }
 .test-box3 p {
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
   font-style: italic;
 }
@@ -1619,25 +1624,26 @@ width: 50%;
   display: flex;
   flex-direction: row;
   justify-self: bottom;
+  margin-top: 130px;
 }
 .test {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   column-gap: 10px;
 }
 .test-box5 {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  height: 50%;
+  height: 100%;
   width: 100%;
 }
 .test-box5 p {
-  font-size: 1rem;
+  font-size: 1.16rem;
 }
 .test-box5 h3 {
   padding: 0px 50px;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .test-box6 {
   display: flex;
@@ -1647,16 +1653,16 @@ width: 50%;
   width: 100%;
 }
 .test-box6 p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 20px 25px;
 }
 .test-box6 h3 {
   padding: 0px 50px;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 #love {
   height: 100%;
-  width: 100%;
+  width: 90%;
 }
 .love-box h2 {
   font-size: 1em;
@@ -1803,7 +1809,7 @@ width: 50%;
 }
 .connect-box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   justify-content: center;
   align-items: center;
@@ -1813,27 +1819,35 @@ width: 50%;
   display: flex;
   flex-direction: column;
   padding: 20px 10px;
-  height: 100%;
+  height: 70%;
   width: 100%;
   background-image: url(img/img/ban.jpg);
 }
 .connect-box2 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 20vh;
+  height: 100%;
 }
 .connect-box3 {
   height: 100%;
-  width: 100%;
+  width: 60%;
+  padding-right: 50px;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  margin-right: 70px;
+
 }
 .connect-box4 {
   height: 100%;
-  width: 100%;
+  width: 35%;
 }
 .connect-box3 h1, .connect-box4 h1, .connect-box1 h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .connect-box3 p, .connect-box4 p, .connect-box1 p {
   font-size: 2rem;
@@ -1917,24 +1931,25 @@ padding: 10px 10px;
   font-weight: 500;
   justify-content: center;
   width: 100%;
+  margin-left: 50px;
 }
-#navbar li span { 
+#navbar li span {    
   background-color: red;
   border-radius: 50%;
   padding: 1px 6px;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
-  left: 40px;
-  bottom: 30px;
+  left: 20px;
+  bottom: 2dvh;
 }
 #navbar li a{
   font-size: 1em;
   font-weight: 700;
 }
 #navbar li a img {
-  width: 7vh;
-  height: 7vh;
+  width: 40px;
+  height: 40px;
 }
 #main-header {
   width: 145%;
@@ -1959,12 +1974,11 @@ padding: 10px 10px;
 #help {
   display: flex;
   flex-direction: row;
-  justify-self: center;
-  align-items: center;
+  margin-left: 180px;
   padding: 20px;
   height: 100%;
   border-radius: 30px;
-  width: 100%;
+  width: 140%;
   overflow: auto;
 }
 .help-box {
@@ -1973,12 +1987,12 @@ padding: 10px 10px;
   flex: 1;
   border-radius: 20px;
   line-height: 20px;
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 .help-box h2 {
   color: rgb(53, 18, 18);
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .help-box button{
   padding: 10px 10px;
@@ -1996,7 +2010,7 @@ padding: 10px 10px;
   border-radius: 20px;
   overflow: hidden;
   height: 100%;
-  width: 100%;
+  width: 50%;
 }
 #slider figure {
   display: flex;
@@ -2013,12 +2027,13 @@ padding: 10px 10px;
   padding: 10px 10px;
 }
 #services {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 145%;
+  width: 140%;
 }
 #services .service-box {
   width: 100%;
@@ -2029,13 +2044,13 @@ padding: 10px 10px;
 }
 #services .service-box img {
   width: 100%;
-  height: 100%;
+  height: 70%;
 }
 #why {
   display: flex;
   align-self: center;
   height: 100%;
-  width: 100%;
+  width: 140%;
 }
 #why h2 {
   font-size: 2rem;
@@ -2050,6 +2065,7 @@ padding: 10px 10px;
   height: auto;
   display: flex;
   flex-direction: row;
+  width: 140%;
 }
 .trade-box {
   padding: 20px;
@@ -2062,7 +2078,7 @@ padding: 10px 10px;
   text-wrap: wrap;
 }
 .trade-box p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
 }
 .trade-box h1 {
@@ -2089,7 +2105,7 @@ padding: 10px 10px;
   flex-direction: row;
   margin: 5px 5px;
   height: 100%;
-  width: 100%;
+  width: 140%;
 }
 .test-box2 {
   margin: 20px 50px;
@@ -2100,11 +2116,11 @@ padding: 10px 10px;
 width: 50%;
 }
 .test-box3 h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .test-box3 p {
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
   font-style: italic;
 }
@@ -2112,6 +2128,7 @@ width: 50%;
   display: flex;
   flex-direction: row;
   justify-self: bottom;
+  margin-top: 150px;
 }
 .test {
   display: flex;
@@ -2149,13 +2166,13 @@ width: 50%;
 }
 #love {
   height: 100%;
-  width: 100%;
+  width: 130%;
 }
 .love-box h2 {
-  font-size: 0.8em;
+  font-size: 1.5em;
 }
 .love-box p {
-  font-size: 0.8em;
+  font-size: 1.3em;
 }
 .love-box strong {
   font-weight: 600;
@@ -2163,7 +2180,7 @@ width: 50%;
 }
 #products {
   contain: content; 
-  width: 100%;
+  width: 135%;
 }
 .pro {
   display: grid;
@@ -2210,7 +2227,7 @@ width: 50%;
 }
 #get {
   height: 100%;
-  width: 100%;
+  width: 135%;
 }
 #get h1 {
   font-size: 2rem;
@@ -2227,7 +2244,7 @@ width: 50%;
 #stock {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 135%;
   height: 100%;
   margin: 20px 20px;
 }
@@ -2277,7 +2294,7 @@ width: 50%;
   display: flex;
   flex-direction: column;
   padding: 10px 10px;
-  width: 100%;
+  width: 135%;
 }
 .connect-header {
   display: flex;
@@ -2296,7 +2313,7 @@ width: 50%;
 }
 .connect-box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   justify-content: center;
   align-items: center;
@@ -2312,10 +2329,10 @@ width: 50%;
 }
 .connect-box2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 20vh;
+  height: 100%;
 }
 .connect-box3 {
   height: 100%;
@@ -2326,10 +2343,10 @@ width: 50%;
   width: 100%;
 }
 .connect-box3 h1, .connect-box4 h1, .connect-box1 h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .connect-box3 p, .connect-box4 p, .connect-box1 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 #footer {
@@ -2342,7 +2359,7 @@ width: 50%;
   display: flex;
   justify-self: center;
   color: black;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .footer-box p {
   font-size: 2rem;
@@ -2416,7 +2433,7 @@ width: 180px;
   position: relative;
 }
 #navbar li a{
-  font-size: 9 px;
+  font-size: 7px;
   font-weight: 500;
 }
 #navbar li a img {
