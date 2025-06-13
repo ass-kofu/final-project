@@ -701,6 +701,9 @@ margin: 10px 30px;
   font-size: 1rem;
   margin-bottom: 20px;
 }
+.pro1 a, .pro2 a, .pro3 a {
+text-decoration: none;
+}
 .pro1 button, .pro2 button, .pro3 button {
   background-color: green;
   color: white;
@@ -938,482 +941,452 @@ margin: 10px 30px;
 @media screen and (min-width:1025px) and 
 (max-width: 1200px) {
   #header {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
+    height: 15%;
   }
   .header-div {
-    width: 100%;
+    width: 200%;
     height: auto;
   }
   .header-div ul li a {
-    font-size: 2em;
+    font-size: 3em;
+  }
+  .header-div li .butt1 {
+    padding: 20px;
+    font-size: 2rem;
+    width: 350px;
+  }
+  .slide {
+  height: 10%;
+  width: 20%;
+  left: -450px;
+  }
+  .btn-two img {
+    margin-left: 370px;
+    height: 50px;
+    width: 50px;
   }
   #navbar {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   #navbar li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  #navbar li a {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  #navbar li a img {
+    width: 50px;
+    height: 50px;
+  }
+  #navbar li a span {
+    padding: 2px 9px;
+    right: 20px;
+    font-size: 25px;
   }
   #main-header {
-    height: auto;
+    height: 40vh;
+    width: 100%;
+  }
+  #main-header h4 {
+    padding: 5px;
+    font-size: 2rem;
+  }
+  #main-header p {
+    font-size: 1.5rem;
+  }
+  #main-header button {
+    padding: 14px 80px 14px 65px;
+    font-size: 2rem;
+  }
+  #help {
+    display: flex;
+    align-items: center;
     padding: 20px;
-    text-align: center;
+    height: 100%;
+    border-radius: 30px;
+    width: 100%;
+    overflow: auto;
+  }
+  .help-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+  }
+  .help-box h2 {
+    color: rgb(53, 18, 18);
+    font-size: 1.8rem;
+    line-height: 40px;
+  }
+  .help-box button{
+    padding: 20px 20px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 60%;
+    margin: 10px;
   }
   #slider {
-    width: 100%;
-    height: auto;
+    display: flex;
+    float: left;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    width: 25vh;
   }
-#header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 20px;
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  position: fixed;
+  #slider figure {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  #slider figure img {
+    width: 100%;
+    height: 100%;
+  }
+  #services {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  #services .service-box {
+    width: 100%;
+    height: 100%;
+  }
+  #services .service-box p {
+    font-size: 1.3rem;
+  }
+  #services .service-box img {
+    width: 100%;
+  }
+  #why {
+    display: flex;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+  }
+  #why h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  #why p {
+    color: var(--text-clr);
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  #trade{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .trade-box {
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+  }
+  .trade-box h2 {
+    font-size: 2rem;
+  }
+  .trade-box p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .trade-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-wrap: wrap;
+  }
+  .trade-box a {
+    display: flex;
+    font-size: 2rem;
+  }
+  #testimonial {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  .test-box2 {
+    margin: 20px 50px;
+    height: 100%;
+    width: 50%;
+  }
+  .test-box3 {
   width: 100%;
-  top: 0;
-  left: 0;
-}
-.header-div ul li a {
-  font-size: 2.5em;
-}
-.butt1 {
-  padding: 20px 20px;
-  width: 155px;
-  margin-top: 5px;
-}
-#navbar {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 18px;
-  font-weight: 700;
-  justify-content: center;
-}
-#navbar li span {
-  background-color: red;
-  border-radius: 50%;
-  padding: 20px 20px;
-  color: white;
-  font-size: 15px;
-  position: relative;
-}
-#navbar li a{
-  font-size: 14px;
-  font-weight: 600;
-}
-#main-header {
-  height: 30vh;
-  width: 100%;
-}
-#main-header h4 {
-  padding: 5px;
-  font-size: 2rem;
-}
-#main-header button {
-  padding: 14px 80px 14px 65px;
-  font-size: 1.5rem;
-}
-#help {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  align-items: center;
-  padding: 20px;
-  height: 20vh;
-  border-radius: 30px;
-  width: 100%;
-  overflow: auto;
-}
-.help-box {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  border-radius: 20px;
-  line-height: 20px;
-  width: 100%;
-  height: 100%;
-}
-.help-box h2 {
-  color: rgb(53, 18, 18);
-  font-size: 1.5rem;
-}
-.help-box button{
-  padding: 10px 10px;
-  align-self: center;
-  border: none;
-  border-radius: 10px;
-  font-size: 1rem;
-  cursor: pointer;
-  width: 60%;
-  margin: 10px;
-}
-#slider {
-  display: flex;
-  float: left;
-  border-radius: 20px;
-  overflow: hidden;
-  height: 100%;
-  width: 90%;
-}
-#slider figure {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-#slider figure img {
-  width: 100%;
-  height: 100%;
-}
-#f1 {
-  padding: 10px 10px;
-}
-#services {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-#services .service-box {
-  width: 100%;
-  height: 100%;
-}
-#services .service-box p {
-  font-size: 0.9rem;
-}
-#services .service-box img {
-  width: 100%;
-}
-#why {
-  display: flex;
-  align-self: center;
-  height: 100%;
-  width: 100%;
-}
-#why h2 {
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-#why p {
-  color: var(--text-clr);
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-#trade{
-  height: auto;
-  display: flex;
-  flex-direction: row;
-}
-.trade-box {
-  padding: 20px;
-  width: 50%;
-  height: fit-content;
-}
-.trade-box h2 {
-  font-size: rem;
-  margin-bottom: 20px;
-  text-wrap: wrap;
-}
-.trade-box p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-.trade-box h1 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  text-wrap: wrap;
-}
-.trade-box a {
-  display: flex;
-  font-size: 1.7rem;
-}
-.img-container{
-  border: 2px solid var(--line-clr);
-  border-radius: 20px;
-  background-color: h();
-  width: 700px;
-  padding: 50px;
-  position: relative;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-#testimonial {
-  display: flex;
-  flex-direction: row;
-  margin: 5px 5px;
-  height: 100%;
-  width: 100%;
-}
-.test-box2 {
-  margin: 20px 50px;
-  height: 100%;
-  width: 50%;
-}
-.test-box3 {
-width: 50%;
-}
-.test-box3 h2 {
-  font-size: 1rem;
-}
-.test-box3 p {
-  color: white;
-  font-size: 1rem;
-  margin-bottom: 20px;
-  font-style: italic;
-}
-.test-box4 {
-  display: flex;
-  flex-direction: row;
-  justify-self: bottom;
-}
-.test {
-  display: flex;
-  flex-direction: column;
-  column-gap: 10px;
-}
-.test-box5 {
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  height: 50%;
-  width: 100%;
-}
-.test-box5 p {
-  font-size: 1rem;
-}
-.test-box5 h3 {
-  padding: 0px 50px;
-  font-size: 1rem;
-}
-.test-box6 {
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  height: 100%;
-  width: 100%;
-}
-.test-box6 p {
-  font-size: 1rem;
-  padding: 20px 25px;
-}
-.test-box6 h3 {
-  padding: 0px 50px;
-  font-size: 1rem;
-}
-#love {
-  height: 100%;
-  width: 100%;
-}
-.love-box h2 {
-  font-size: 1em;
-}
-.love-box p {
-  font-size: 1.5em;
-}
-.love-box strong {
-  font-weight: 600;
-  font-size: 2em;
-}
-#products {
-  contain: content; 
-  width: 100%;
-}
-.pro {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 10px;
-  margin-left: 20px;
-  justify-content: center;
-  height: fit-content;
-  width: 100%;
-}
-#products h2 {
-  font-size: 3rem;
-  text-align: center;
-}
-.pro1, .pro2, .pro3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-.pro1 img, .pro2 img, .pro3 img {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-}
-.pro1 h3, .pro2 h3, .pro3 h3 {
-  color: rgb(90, 189, 90);
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-  text-align: center;
-}
-.pro1 p, .pro2 p, .pro3 p {
-  color: rgb(24, 11, 24);
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-.pro1 button, .pro2 button, .pro3 button {
-  display: flex;
-  justify-self: center;
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-size: 1rem;
-}
-#get {
-  height: 100%;
-  width: 100%;
-}
-#get h1 {
-  font-size: 2rem;
-}
-#get h2 {
-  font-size: 1.5rem;
-}
-#get button {
-  display: flex;
-  justify-self: center;
-  padding: 15px 20px;
-  font-size: 1.5rem;
-}
-#stock {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  margin: 20px 20px;
-}
-#stock h2 {
-  font-size: 2em;
-  font-weight: 600;
-  margin: 20px 10px;
-}
-.stock-divv {
-  display: flex;
-  flex-direction: column;
-}
-.divv1 {
-  border-radius: 20px;
-}
-.divv1 img {
-  border-radius: 20px;
-  height: 100%;
-  width: 100%;
-}
-.divv2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0px 20px;
-  border-radius: 20px;
-}
-.divv2-1 {
-  display: flex;
-  flex-direction: row;
-  padding: 20px 20px;
-  justify-items: start;
-}
-.divv2-1 img {
-  width: 100%;
-  height: 100%;
-  background-color: whitesmoke;
-  border-radius: 50%;
-}
+  }
+  .test-box3 h2 {
+    font-size: 2rem;
+  }
+  .test-box3 p {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  .test-box4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .test-box4 .left {
+    margin-left: -200px;
+  }
+  .test-box4 .right {
+    margin-right: -100px;
+  }
+  .test {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+  }
+  .test-box5 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 25vh;
+    width: 100%;
+  }
+  .test-box5 p {
+    font-size: 1.3rem;
+  }
+  .test-box5 h3 {
+    padding: 0px 50px;
+    font-size: 1.5rem;
+  }
+  .test-box6 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 25vh;
+    width: 100%;
+  }
+  .test-box6 p {
+    font-size: 1.5rem;
+    padding: 20px 25px;
+  }
+  .test-box6 h3 {
+    padding: 0px 50px;
+    font-size: 1.5rem;
+  }
+  #love {
+    height: 100%;
+    width: 100%;
+  }
+  .love-box h2 {
+    font-size: 2em;
+  }
+  .love-box p {
+    font-size: 1.5em;
+  }
+  .love-box strong {
+    font-weight: 600;
+    font-size: 2em;
+  }
+  #products {
+    contain: content; 
+    width: 100%;
+  }
+  .pro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-left: 20px;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+  }
+  #products h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .pro1, .pro2, .pro3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  .pro1 img, .pro2 img, .pro3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .pro1 h3, .pro2 h3, .pro3 h3 {
+    color: rgb(90, 189, 90);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .pro1 p, .pro2 p, .pro3 p {
+    color: rgb(24, 11, 24);
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .pro1 button, .pro2 button, .pro3 button {
+    display: flex;
+    justify-self: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+  }
+  #get {
+    height: 100%;
+    width: 100%;
+  }
+  #get h1 {
+    font-size: 2rem;
+  }
+  #get h2 {
+    font-size: 1.5rem;
+  }
+  #get button {
+    display: flex;
+    justify-self: center;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+  }
+  #stock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 20px 20px;
+  }
+  #stock h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 20px 10px;
+  }
+  .stock-divv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .divv1 {
+    border-radius: 20px;
+  }
+  .divv1 img {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  .divv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px;
+    border-radius: 20px;
+  }
+  .divv2-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px;
+    justify-items: start;
+  }
+  .divv2-1 img {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 50%;
+  }
 
-.divv2-1 h1{
-  color: rgb(37, 30, 15);
-  font-size: 2.5rem;
-  margin-left: 50px;
-}
-#connect {
-  display: flex;
-  flex-direction: column;
-  padding: 10px 10px;
-  width: 100%;
-}
-.connect-header {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  padding: 20px 40px;
-}
-.connect-header h1 {
-  font-weight: bolder;
-  font-size: 2.5rem;
-}
-.connect-header p{
-  font-size: 1.5rem;
-  text-wrap: wrap;
-}
-.connect-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  justify-content: center;
-  align-items: center;
-  width: 100%;;
-}
-.connect-box1 {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 10px;
-  height: 100%;
-  width: 100%;
-  background-image: url(img/img/ban.jpg);
-}
-.connect-box2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  height: 20vh;
-}
-.connect-box3 {
-  height: 100%;
-  width: 100%;
-}
-.connect-box4 {
-  height: 100%;
-  width: 100%;
-}
-.connect-box3 h1, .connect-box4 h1, .connect-box1 h1 {
-  font-size: 1.5rem;
-}
-.connect-box3 p, .connect-box4 p, .connect-box1 p {
-  font-size: 2rem;
-  text-align: center;
-}
-#footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  color: var(--text-clr);
-  width: 100%;
-}
-.footer-box h1 {
-  display: flex;
-  justify-self: center;
-  color: black;
-  font-size: 2rem;
-}
-.footer-box p {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-.footer-box a {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
+  .divv2-1 h1{
+    color: rgb(37, 30, 15);
+    font-size: 2.5rem;
+    margin-left: 50px;
+  }
+  #connect {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+  }
+  .connect-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+  }
+  .connect-header h1 {
+    font-weight: bolder;
+    font-size: 2.8rem;
+  }
+  .connect-header p{
+    font-size: 1.8rem;
+    text-wrap: wrap;
+  }
+  .connect-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 100%;;
+  }
+  .connect-box1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    height: 42vh;
+    width: 100%;
+    background-image: url(img/img/ban.jpg);
+  }
+  .connect-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .connect-box3 {
+    height: 20vh;
+    width: 100%;
+  }
+  .connect-box4 {
+    height: 20vh;
+    width: 100%;
+  }
+  .connect-box3 h1, .connect-box4 h1, .connect-box1 h1 {
+    font-size: 1.8rem;
+  }
+  .connect-box3 p, .connect-box4 p, .connect-box1 p {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  #footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: var(--text-clr);
+    width: 100%;
+  }
+  .footer-box h1 {
+    display: flex;
+    justify-self: center;
+    color: black;
+    font-size: 2rem;
+  }
+  .footer-box p {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  .footer-box a {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
 }
 @media screen and (min-width:769px) and 
 (max-width:1024px){
@@ -1524,7 +1497,7 @@ width: 50%;
 }
 #services {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   justify-content: center;
   justify-content: space-between;
@@ -1537,7 +1510,7 @@ width: 50%;
   height: 100%;
 }
 #services .service-box p {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 #services .service-box img {
   width: 100%;
@@ -1598,7 +1571,7 @@ width: 50%;
 #testimonial {
   display: flex;
   flex-direction: row;
-  margin: 5px 5px;
+  padding: 10px;
   height: 100%;
   width: 100%;
 }
@@ -1628,28 +1601,30 @@ margin-top: -40px;
 }
 .test {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   column-gap: 10px;
+  width: 100%;
+  gap: 10px;
 }
 .test-box5 {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  height: 100%;
+  height: 50%;
   width: 100%;
 }
 .test-box5 p {
-  font-size: 1.16rem;
+  font-size: 1.3rem;
 }
 .test-box5 h3 {
   padding: 0px 50px;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .test-box6 {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  height: 100%;
+  height: 50%;
   width: 100%;
 }
 .test-box6 p {
@@ -1658,7 +1633,7 @@ margin-top: -40px;
 }
 .test-box6 h3 {
   padding: 0px 50px;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 #love {
   height: 100%;
@@ -1819,13 +1794,13 @@ margin-top: -40px;
   display: flex;
   flex-direction: column;
   padding: 20px 10px;
-  height: 70%;
+  height: 40vh;
   width: 100%;
   background-image: url(img/img/ban.jpg);
 }
 .connect-box2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -1833,7 +1808,7 @@ margin-top: -40px;
 }
 .connect-box3 {
   height: 100%;
-  width: 60%;
+  width: 100%;
   padding-right: 50px;
 }
 .location {
@@ -1844,7 +1819,7 @@ margin-top: -40px;
 }
 .connect-box4 {
   height: 100%;
-  width: 35%;
+  width: 100%;
 }
 .connect-box3 h1, .connect-box4 h1, .connect-box1 h1 {
   font-size: 1.3rem;
