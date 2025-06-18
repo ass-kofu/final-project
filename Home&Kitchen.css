@@ -122,8 +122,8 @@ p {
   width: 80%;
   contain: content;
 }
-.item img {
-  width: 100%;
+.cont-div1 {
+  width: 1;
   height: 50%;
   filter: drop-shadow(0 15px 15px #0009);
 }
@@ -246,6 +246,7 @@ footer {
   height: 40px;
   width: 40px;
 }
+/*
 @media screen and (max-width: 1200px) {
   #header {
     display: grid;
@@ -786,4 +787,4 @@ footer {
     align-items: center;
     font-weight: 300;
   }
-}
+}*/
