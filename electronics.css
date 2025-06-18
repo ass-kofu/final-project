@@ -289,142 +289,6 @@ footer {
   height: 40px;
   width: 40px;
 }
-
-
-@media screen and (max-width: 1200px){
-  #header {
-    display: grid;
-    grid-template-columns: 250px 1fr 150px;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    padding: 10px;
-  }
-  .tittle { 
-    display: flex;
-    flex-direction: column;
-  }
-  .tittle img {
-    height: 3vh;
-  }
-  .title a {
-    font-size: 2em;
-  }
-  .search-btn {
-    display: flex;
-    margin-bottom: 45px;
-    height: 70px;
-  }
-  .search-btn input {
-    width: 100%;
-  }
-  .search-btn input::placeholder {
-  font-size: 3em;
-  color: black;
-  }
-  .search-btn img {
-
-  }
-  .icon-cart {
-    display: flex;
-    position: relative;
-    align-self: center;
-    margin-bottom: 46px;
-  }
-  .icon-cart .cart img {
-    font-size: 2em;
-    height: 50px;
-    width: 50px;
-  }
-  .icon-cart .account {
-    width: 50px;
-    height:50px;
-    font-size: 1em;
-  }
-  .icon-cart .account img {
-    height: 50px;
-    width: 50px;
-  }
-  .icon-cart .cart span {
-    display: flex;
-    width: 30px;
-    height: 30px;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 55%;
-    right: 90px;
-    font-size: 2em;
-  }
-  #electronics {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    width: 98%;
-    padding: 10px;
-  }
-  .item {
-    height: 90%;
-    width: fit-content;
-  }
-  .item img {
-    width: 100%;
-    height: 55%;
-  }
-  .item h2 {
-    font-size: 1.5em;
-  }
-  .price {
-    letter-spacing: 3px;
-    font-size: 1.5em;
-    color: #000;
-    justify-self: center;
-    margin-top: -20px;
-  }
-  .addCart {
-    display: flex;
-    border: 1px solid rgb(11, 173, 11);
-    padding: 10px 20px;
-    border-radius: 40px;
-    align-items: center;
-    justify-self: center;
-    font-size: 1.5em;
-    margin-top: -10px;
-  }
-  .cartTab {
-    width: 150px;
-    background-color: rgb(48, 40, 40);
-    color: #eee;
-    position: fixed;
-    inset: 0 -150px 0 auto;
-    display: grid;
-    grid-template-rows: 50px 1fr 50px;
-    transition: 0.6s;
-  }
-  body.showCart .cartTab {
-    inset: 0 0 0 auto;
-  }
-  body.showCart .product{
-    transform: translateX(-10px);
-  }
-  .cartTab .btn {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .quantity span {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    color: #000;
-    border-radius: 50%;
-    cursor: pointer;
-    align-items: center;
-    font-weight: 300;
-  }
-}
 @media screen and (min-width: 1024px) and 
 (max-width: 1200px) {
   #header {
@@ -746,6 +610,7 @@ footer {
   }
   .search-btn input {
     width: 100%;
+    font-size: 0.7em;
   }
   .icon-cart {
     display: flex;
@@ -781,16 +646,20 @@ footer {
     right: 65px;
     font-size: 1em;
   }
+  .brands {
+    width: 100%;
+    margin-left: 10px;
+  }
   #electronics {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 90%;
-    padding: 10px;
+    width: 95%;
+    padding: 20px;
   }
   .item {
-    height: 100%;
-    width: 100%;
+    height: 95%;
+    width: 95%;
     margin-top: 0px;
   }
   .cont-div1 {
