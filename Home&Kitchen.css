@@ -246,7 +246,6 @@ footer {
   height: 40px;
   width: 40px;
 }
-/*
 @media screen and (max-width: 1200px) {
   #header {
     display: grid;
@@ -519,35 +518,39 @@ footer {
     font-weight: 300;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 481px) and 
+(max-width: 768px) {
   #header {
-    display: grid;
-    grid-template-columns: 130px 1fr 100px;
-    align-items: center;
-    width: 95%;
+    display: flex;
+    width: 94%;
     position: fixed;
-    padding: 10px;
+    padding: 20px;
+    height: 8%;
+    margin-top: -13%;
   }
   .tittle { 
     display: flex;
     flex-direction: column;
   }
+  .tittle h2 {
+    font-size: 0.7em;
+  }
   .tittle img {
     height: 2vh;
   }
-  .title a {
-    font-size: 1.5em;
+  .tittle a {
+    font-size: 0.6em;
   }
   .search-btn {
     display: flex;
-    margin-bottom: 45px;
-    height: 50px;
+    height: 40px;
+    margin-top: 40px;
   }
   .search-btn input {
     width: 100%;
   }
   .search-btn input::placeholder {
-  font-size: 2em;
+  font-size: 1.5em;
   color: black;
   }
   .search-btn img {
@@ -557,7 +560,7 @@ footer {
     display: flex;
     position: relative;
     align-self: center;
-    margin-bottom: 46px;
+    margin-top: 40px;
   }
   .icon-cart .cart img {
     font-size: 2em;
@@ -589,39 +592,34 @@ footer {
   }
   #electronics {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    width: 90%;
-    height: 100%;
-    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 95%;
+    margin-top: 13%;
   }
   .item {
     height: 90%;
-    width: 90%;
+    width: 85%;
+    margin-top: 0px;
   }
   .item img {
     width: 100%;
-    height: 55%;
+    height: 50%;
   }
   .item h2 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .price {
     letter-spacing: 3px;
-    font-size: 1.5em;
-    color: #000;
-    justify-self: center;
-    margin-top: -20px;
+    font-size: 1.2em;
+    margin: 15px;
   }
   .addCart {
     display: flex;
-    border: 1px solid rgb(11, 173, 11);
     padding: 10px 20px;
     border-radius: 40px;
     align-items: center;
     justify-self: center;
-    font-size: 1.5em;
-    margin-top: -10px;
+    font-size: 1em;
   }
   .cartTab {
     width: 150px;
@@ -654,73 +652,65 @@ footer {
     font-weight: 300;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) and
+(max-width: 480px) {
   #header {
-    display: grid;
-    grid-template-columns: 130px 1fr 110px;
-    align-items: center;
-    width: 100%;
+    display: flex;
+    width: 95%;
     position: fixed;
     padding: 10px;
+    height: 8%;
+    margin-top: -55px;
   }
-  .tittle { 
-    display: flex;
-    flex-direction: column;
+  .tittle h2 {
+    font-size: 0.6em;
   }
   .tittle img {
-    height: 2vh;
+    height: 3vh;
   }
-  .title a {
-    font-size: 1.5em;
+  .tittle a {
+    font-size: 0.6em;
   }
   .search-btn {
     display: flex;
     margin-bottom: 45px;
-    height: 50px;
-  }
-  .search-btn input {
-    width: 100%;
+    height: 30px;
+    margin-top: 45px;
   }
   .search-btn input::placeholder {
   font-size: 1em;
-  color: black;
-  }
-  .search-btn img {
-
   }
   .icon-cart {
     display: flex;
-    position: relative;
-    align-self: center;
-    margin-bottom: 46px;
+    margin-top: 45px;
   }
   .icon-cart .cart img {
     font-size: 2em;
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
   }
   .icon-cart .account {
-    width: 40px;
-    height:40px;
-    font-size: 1em;
+    width: 25px;
+    height:25px;
+    font-size: 0.6em;
   }
   .icon-cart .account img {
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
   }
   .icon-cart .cart span {
     display: flex;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     background-color: red;
     color: white;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 55%;
-    right: 65px;
-    font-size: 1em;
+    top: 50%;
+    left: 15px;
+    font-size: 0.7em;
   }
   #electronics {
     display: grid;
@@ -728,34 +718,28 @@ footer {
     gap: 20px;
     width: 90%;
     padding: 10px;
+    margin-top: 55px;
   }
   .item {
-    height: 100%;
-    width: 100%;
+    height: 85%;
+    width: 80%;
+    margin-top: 0px;
   }
   .item img {
     width: 100%;
-    height: 55%;
+    height: 50%;
   }
   .item h2 {
-    font-size: 1.5em;
+    font-size: 0.6em;
   }
   .price {
     letter-spacing: 3px;
-    font-size: 1.5em;
-    color: #000;
-    justify-self: center;
-    margin-top: -20px;
+    font-size: 0.7em;
+    margin: 10px;
   }
   .addCart {
-    display: flex;
-    border: 1px solid rgb(11, 173, 11);
-    padding: 10px 20px;
-    border-radius: 40px;
-    align-items: center;
-    justify-self: center;
-    font-size: 1.5em;
-    margin-top: -10px;
+    font-size: 0.6em;
+    margin-top: 10px;
   }
   .cartTab {
     width: 150px;
@@ -787,4 +771,4 @@ footer {
     align-items: center;
     font-weight: 300;
   }
-}*/
+}
