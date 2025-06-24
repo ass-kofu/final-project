@@ -1872,6 +1872,8 @@ margin-top: -40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   position: fixed;
+  min-width: none;
+  max-width: ;
   width: 100%;
   top: 0;
   left: 0;
@@ -1889,8 +1891,8 @@ margin-top: -40px;
   margin-left: 50px;
 }
 .header-div {
-height: 350px;
-width: 200px;
+height: 300px;
+width: 230px;
 padding: 10px 10px;
 }
 .slide {
@@ -1908,6 +1910,7 @@ padding: 10px 10px;
 }
 .btn-two img {
   font-size: 10px;
+  left: -10px;
 }
 #navbar {
   display: flex;
@@ -1930,7 +1933,7 @@ padding: 10px 10px;
   bottom: 3px;
 }
 #navbar li a{
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 700;
 }
 #navbar li a img {
@@ -1938,23 +1941,32 @@ padding: 10px 10px;
   height: 40%;
 }
 #navbar .account {
-  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  margin-right: 40px;
+}
+#navbar .account img {
+  width: 30px;
+  height: 30px;
 }
 #main-header {
-  width: 145%;
+  width: 100%;
   height: 100%;
+  padding: 10px;
 }
 #main-header h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 1px;
 }
 #main-header h4 {
   padding: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 #main-header p {
   padding: 10px;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 #main-header button {
   padding: 10px 60px 10px 50px;
@@ -1963,25 +1975,23 @@ padding: 10px 10px;
 #help {
   display: flex;
   flex-direction: row;
-  margin-left: 180px;
   padding: 20px;
   height: 100%;
   border-radius: 30px;
-  width: 140%;
+  width: 90%;
   overflow: auto;
 }
 .help-box {
   display: flex;
   flex-direction: column;
-  flex: 1;
   border-radius: 20px;
   line-height: 20px;
-  width: 50%;
-  height: 100%;
+  width: 100%;
+  height: 50%;
 }
 .help-box h2 {
   color: rgb(53, 18, 18);
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .help-box button{
   padding: 10px 10px;
@@ -2001,19 +2011,9 @@ padding: 10px 10px;
   height: 100%;
   width: 50%;
 }
-#slider figure {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
 #slider figure img {
   width: 100%;
   height: 100%;
-}
-#f1 {
-  padding: 10px 10px;
 }
 #services {
   display: grid;
@@ -2022,7 +2022,8 @@ padding: 10px 10px;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 140%;
+  width: 100%;
+  padding:20px 10px;
 }
 #services .service-box {
   width: 100%;
@@ -2037,24 +2038,27 @@ padding: 10px 10px;
 }
 #why {
   display: flex;
+  justify-self: center;
   align-self: center;
   height: 100%;
-  width: 140%;
+  width: 95%;
 }
 #why h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
 }
 #why p {
   color: var(--text-clr);
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
 }
 #trade{
   height: auto;
   display: flex;
   flex-direction: row;
-  width: 140%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .trade-box {
   padding: 20px;
@@ -2062,114 +2066,113 @@ padding: 10px 10px;
   height: fit-content;
 }
 .trade-box h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 20px;
   text-wrap: wrap;
 }
 .trade-box p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 20px;
 }
 .trade-box h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
   text-wrap: wrap;
 }
 .trade-box a {
   display: flex;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .img-container{
   border: 2px solid var(--line-clr);
   border-radius: 20px;
-  background-color: h();
-  width: 700px;
-  padding: 50px;
+  width: 600px;
+  padding: 40px;
   position: relative;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 #testimonial {
   display: flex;
   flex-direction: row;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
   margin: 5px 5px;
   height: 100%;
-  width: 140%;
+  width: 95%;
 }
 .test-box2 {
-  margin: 20px 50px;
   height: 100%;
   width: 50%;
 }
 .test-box3 {
 width: 50%;
+margin-right: 20px;
 }
 .test-box3 h2 {
-  font-size: 1.5rem;
+  font-size: 0.9rem;
 }
 .test-box3 p {
   color: white;
-  font-size: 1.2rem;
-  margin-bottom: 20px;
+  font-size: 0.8rem;
   font-style: italic;
 }
 .test-box4 {
   display: flex;
   flex-direction: row;
-  justify-self: bottom;
-  margin-top: 150px;
+  margin-bottom: 70px;
 }
 .test {
   display: flex;
   flex-direction: column;
   column-gap: 10px;
+  margin-right: 20px;
 }
 .test-box5 {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  height: 50%;
-  width: 100%;
+  height: 27vh;
+  width: 35vh;
 }
 .test-box5 p {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .test-box5 h3 {
   padding: 0px 50px;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .test-box6 {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  height: 100%;
-  width: 100%;
+  height: 22vh;
+  width: 35vh;
 }
 .test-box6 p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 20px 25px;
 }
 .test-box6 h3 {
   padding: 0px 50px;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 #love {
   height: 100%;
-  width: 130%;
+  width: 90%;
 }
 .love-box h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .love-box p {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 .love-box strong {
   font-weight: 600;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 #products {
   contain: content; 
-  width: 135%;
+  width: 100%;
 }
 .pro {
   display: grid;
@@ -2177,7 +2180,6 @@ width: 50%;
   column-gap: 10px;
   margin-left: 20px;
   justify-content: center;
-  height: fit-content;
   width: 100%;
 }
 #products h2 {
@@ -2193,12 +2195,12 @@ width: 50%;
 }
 .pro1 img, .pro2 img, .pro3 img {
   width: 100%;
-  height: 100%;
+  height: 50%;
   border-radius: 20px;
 }
 .pro1 h3, .pro2 h3, .pro3 h3 {
   color: rgb(90, 189, 90);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -2215,30 +2217,35 @@ width: 50%;
   font-size: 1rem;
 }
 #get {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
   height: 100%;
-  width: 135%;
+  width: 95%;
 }
 #get h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 #get h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 #get button {
   display: flex;
-  justify-self: center;
+  align-self: center;
   padding: 15px 20px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  width: 150px;
 }
 #stock {
   display: flex;
   flex-direction: column;
-  width: 135%;
+  width: 95%;
   height: 100%;
   margin: 20px 20px;
 }
 #stock h2 {
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: 600;
   margin: 20px 10px;
 }
@@ -2248,6 +2255,7 @@ width: 50%;
 }
 .divv1 {
   border-radius: 20px;
+  height: 50%;
 }
 .divv1 img {
   border-radius: 20px;
@@ -2258,32 +2266,29 @@ width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 20px;
   border-radius: 20px;
 }
 .divv2-1 {
   display: flex;
   flex-direction: row;
-  padding: 20px 20px;
   justify-items: start;
 }
 .divv2-1 img {
-  width: 100%;
-  height: 100%;
+  width: fit-content;
+  height: fit-content;
   background-color: whitesmoke;
   border-radius: 50%;
 }
-
 .divv2-1 h1{
   color: rgb(37, 30, 15);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-left: 50px;
 }
 #connect {
   display: flex;
   flex-direction: column;
   padding: 10px 10px;
-  width: 135%;
+  width: 100%;
 }
 .connect-header {
   display: flex;
@@ -2294,10 +2299,10 @@ width: 50%;
 }
 .connect-header h1 {
   font-weight: bolder;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 .connect-header p{
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-wrap: wrap;
 }
 .connect-box {
@@ -2312,7 +2317,7 @@ width: 50%;
   display: flex;
   flex-direction: column;
   padding: 20px 10px;
-  height: 100%;
+  height: 50vh;
   width: 100%;
   background-image: url(img/img/ban.jpg);
 }
@@ -2321,21 +2326,21 @@ width: 50%;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 50vh;
 }
 .connect-box3 {
-  height: 100%;
+  height: 26vh;
   width: 100%;
 }
 .connect-box4 {
-  height: 100%;
+  height: 22vh;
   width: 100%;
 }
 .connect-box3 h1, .connect-box4 h1, .connect-box1 h1 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .connect-box3 p, .connect-box4 p, .connect-box1 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
 }
 #footer {
@@ -2348,14 +2353,14 @@ width: 50%;
   display: flex;
   justify-self: center;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .footer-box p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 15px;
 }
 .footer-box a {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 20px;
   border-radius: 5px;
 }
