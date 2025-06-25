@@ -24,7 +24,7 @@ body {
   max-width: 100%;
 }
 .tittle img {
-  height: 10vh;
+  height: 3vh;
   background-color: white;
 }
 .title a {
@@ -597,11 +597,15 @@ footer {
     flex-direction: column;
   }
   .tittle h1 {
-    font-size: 1em;
+    font-size: 0.8em;
     text-wrap: wrap;
   }
   .tittle a {
-    font-size: 1.2em;
+    font-size: 0.8em;
+  }
+  .tittle a span {
+    height: 5px;
+    width: 5px;
   }
   .search-btn {
     display: flex;
