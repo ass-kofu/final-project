@@ -1868,15 +1868,12 @@ margin-top: -40px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
   position: fixed;
   min-width: none;
   max-width: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
+  width: 95%;
+  height: 8vh;
+  bottom: 0px;
 }
 .header-div ul li a {
   font-size: 1.2em;
@@ -1953,8 +1950,7 @@ padding: 10px 10px;
 }
 #main-header {
   width: 100%;
-  height: 100%;
-  padding: 10px;
+  top: 0px;
 }
 #main-header h2 {
   font-size: 1rem;
